@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      display: flex;
+      gap: 10px;
+    }
+
+    main {
+      width: 100%;
+      background-color: #f5f5f5;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .big-news {
+      width: 100%;
+      background-color: white;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .small-news {
+  width: calc(24% - 20px);
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  flex-grow: 1; /* Расширение по всей ширине */
+}
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span>NEWS</span>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Sport</a>
+      <a href="#">Science</a>
+      <a href="#">Politics</a>
+      <a href="#">Finance</a>
+    </nav>
+  </header>
+
+  <main>
+    <article class="big-news">
+      <!-- Центральная новость -->
+      <h2>Central News</h2>
+      <p>Description of the main news...</p>
+    </article>
+
+    <section class="small-news">
+      <!-- Маленькие новости -->
+      <h3>Small News 1</h3>
+      <p>Description of small news...</p>
+    </section>
+    <section class="small-news">
+      <h3>Small News 2</h3>
+      <p>Description of small news...</p>
+    </section>
+    <section class="small-news">
+      <h3>Small News 3</h3>
+      <p>Description of small news...</p>
+    </section>
+    <section class="small-news">
+      <h3>Small News 4</h3>
+      <p>Description of small news...</p>
+    </section>
+  </main>
+
+  
+</body>
+</html>
